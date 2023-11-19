@@ -1,1 +1,48 @@
-
+*{
+   
+    /* padding: 0 px ;
+    margin: 0 px ;
+    font-size: 30 px ; */
+    /* border: 1px solid red; */
+}
+h1{
+    text-align: center;
+}
+.lista {
+    position: absolute ;
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(10, 10, 10);
+}
+.lista.content:last-child {
+    border-bottom: non;
+}
+.item-hight-lighted{
+    
+    color: white;
+    background-color: blue;
+}
+.adresses-livraison {
+    height: 250px;
+    width: 300px;
+    border: 1px solid rgb(7, 7, 254);
+}
+.contener{
+    height: 800px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+ display: flex;
+ justify-content: center;
+}
+#myInput{
+    height: 25px;
+    width: 200px;
+}
